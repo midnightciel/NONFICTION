@@ -1024,6 +1024,7 @@ footer .fot_content{
     
     .section_3 .sec3_banner::after{
         background-image: url(../img/mo_sec3.png);
+        background-attachment:local;
     }
 
     .section_3 .sec3_text .sec3_first_text{
