@@ -905,6 +905,12 @@ footer .fot_content{
     }
     /* section_2 end  */
 
+    .section_3 .sec3_banner::after{
+        background-image: url(../img/mo_sec3_1.png);
+        background-attachment:local;
+        background-position: center;
+    }
+
     .section_3 .sec3_banner{
         height: 600px;
     }
@@ -1022,10 +1028,7 @@ footer .fot_content{
         height: 500px;
     }
     
-    .section_3 .sec3_banner::after{
-        background-image: url(../img/mo_sec3.png);
-        background-attachment:local;
-    }
+    
 
     .section_3 .sec3_text .sec3_first_text{
         font-size: 3vw;
