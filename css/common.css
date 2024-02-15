@@ -5,12 +5,7 @@ header, section, footer {
 }
 
 .logo{
-    width: 120px;
-    height: 67px;
-    background-image: url(../img/logo.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 130px;
 }
 
 .section_2 a, .section_5 a {

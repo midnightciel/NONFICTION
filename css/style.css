@@ -107,14 +107,16 @@
     text-decoration: underline;
 }
 
-.logo_black{
-    width: 120px;
-    height: 67px;
-    background-image: url(../img/half_logo.svg);
+.logo, .logo_black{
+    width: 130px;
+    height: 72px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.logo{background-image: url(../img/logo.svg);}
+.logo_black{ background-image: url(../img/half_logo.svg);}
 
 .header_header .mo_header{
     display: none;

@@ -46,9 +46,9 @@
 
     if (matchMedia("screen and (max-width: 1024px)").matches) {
     
-      window.onresize = function(){
-          document.location.reload();
-        }
+      // window.onresize = function(){
+      //     document.location.reload();
+      //   }
 
     const openEl = document.querySelector('.header_header .mo_menu');
     const pcHeaderEl = document.querySelector('.header_header');
@@ -75,8 +75,8 @@
 
     closeEl.addEventListener('click', closeHandler);
   }else{
-    window.onresize = function(){
-      document.location.reload();}
+    // window.onresize = function(){
+    //   document.location.reload();}
 
   }
 
@@ -89,22 +89,6 @@
       moLanguage_down.classList.toggle('mo_language_down_active');
     }
     moLanguage.addEventListener('click', languageEvent);
-
-
-
-
-    // const closeHandler = () => {
-    //   contentEl.classList.remove('gnb_active');
-
-    // }
-
-    // closeEl.addEventListener('click', closeHandler);
-    
-
-
-
-
-
 
 
 
