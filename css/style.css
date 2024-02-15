@@ -359,7 +359,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: url(../img/sec3_3.jpg);
+    background-image: url(../img/sec3_3.jpg);
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
@@ -1023,8 +1023,9 @@ footer .fot_content{
     }
     
     .section_3 .sec3_banner::after{
-        background: url(../img/sec3_mo.jpg);
+        background-image: url(../img/mo_sec3.png);
     }
+
     .section_3 .sec3_text .sec3_first_text{
         font-size: 3vw;
     }
