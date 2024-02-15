@@ -967,7 +967,7 @@ footer .fot_content{
     }
 
     .section_4 .hover_box p {
-        font-size: 24px
+        font-size: 20px
     }
     /* section_4 end  */
 
@@ -1024,13 +1024,14 @@ footer .fot_content{
         font-size: 20px;
     }
     /* section_2 end  */
-
     
     .section_3 .sec3_banner{
-        height: 500px;
+        height: 450px;
     }
-    
-    
+
+    .section_3 .sec3_text{
+        top: 75%;
+    }
 
     .section_3 .sec3_text .sec3_first_text{
         font-size: 3vw;
